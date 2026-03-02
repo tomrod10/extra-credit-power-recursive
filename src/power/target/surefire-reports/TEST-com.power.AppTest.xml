@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.power.AppTest" time="0.043" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.power.AppTest" time="0.043" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/tomasrodriguez/Documents/college/SJCC/Spring 2026/CIS-055 Data Structures &amp; Algorithms/Extra Credit/repo/src/power/target/surefire/surefirebooter-20260301202629339_3.jar /Users/tomasrodriguez/Documents/college/SJCC/Spring 2026/CIS-055 Data Structures &amp; Algorithms/Extra Credit/repo/src/power/target/surefire 2026-03-01T20-26-29_300-jvmRun1 surefire-20260301202629339_1tmp surefire_0-20260301202629339_2tmp"/>
+    <property name="sun.java.command" value="/Users/tomasrodriguez/Documents/college/SJCC/Spring 2026/CIS-055 Data Structures &amp; Algorithms/Extra Credit/repo/src/power/target/surefire/surefirebooter-20260301203627551_3.jar /Users/tomasrodriguez/Documents/college/SJCC/Spring 2026/CIS-055 Data Structures &amp; Algorithms/Extra Credit/repo/src/power/target/surefire 2026-03-01T20-36-27_511-jvmRun1 surefire-20260301203627551_1tmp surefire_0-20260301203627551_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="AppTest"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/tomasrodriguez/Documents/college/SJCC/Spring 2026/CIS-055 Data Structures &amp; Algorithms/Extra Credit/repo/src/power/target/surefire/surefirebooter-20260301202629339_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/tomasrodriguez/Documents/college/SJCC/Spring 2026/CIS-055 Data Structures &amp; Algorithms/Extra Credit/repo/src/power/target/surefire/surefirebooter-20260301203627551_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="25.0.1"/>
@@ -60,9 +60,11 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="testPower(double, int, double)[1]" classname="com.power.AppTest" time="0.015"/>
+  <testcase name="testPower(double, int, double)[1]" classname="com.power.AppTest" time="0.014"/>
   <testcase name="testPower(double, int, double)[2]" classname="com.power.AppTest" time="0.001"/>
-  <testcase name="testPower(double, int, double)[3]" classname="com.power.AppTest" time="0.001"/>
+  <testcase name="testPower(double, int, double)[3]" classname="com.power.AppTest" time="0.0"/>
   <testcase name="testPower(double, int, double)[4]" classname="com.power.AppTest" time="0.0"/>
-  <testcase name="testPower(double, int, double)[5]" classname="com.power.AppTest" time="0.001"/>
+  <testcase name="testPower(double, int, double)[5]" classname="com.power.AppTest" time="0.0"/>
+  <testcase name="testPower(double, int, double)[6]" classname="com.power.AppTest" time="0.0"/>
+  <testcase name="testPower(double, int, double)[7]" classname="com.power.AppTest" time="0.0"/>
 </testsuite>
