@@ -9,6 +9,7 @@ import org.junit.jupiter.params.provider.CsvSource;
  * Unit test for recursive power function.
  */
 public class AppTest {
+    // Paremeter format: Base, Exponent, Expected Result
     @ParameterizedTest
     @CsvSource({
             "2, 2, 4.0",
